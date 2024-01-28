@@ -1,0 +1,19 @@
+~ main
+
+Emeraldo: [[Namaste|hello|hmmmmm]] idk who you are...
+ALT: ummm i just spawned here, i was in my room and just sort of poof i am here
+Emeraldo: Ohhh, btw dont trust the old guy downstairs, he'll look at you with malovent eyes if you help him remove the tv
+ALT: Well HE didnt allow me
+Emeraldo: Thank heavens
+ALT: I want to ask, why are you spinning ?
+Emeraldo: I am seeing if i can find a black book, i kept somewhere in this room, idk where it is
+Emeraldo: If i can find it, i can , in your words poof that old hag and get out of here
+Emeraldo: Have you seen it?
+ALT: Thinks....
+- Yes
+	Emeraldo: oh yeah, where is it ?
+	ALT: that boxes, might be there?
+	Emeraldo: nahhh, thats my photo album, thats not it
+- No
+=> END
+=> END

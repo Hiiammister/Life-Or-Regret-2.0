@@ -1,0 +1,20 @@
+~ main
+ALT: Hello, who ever you are
+Ginger: Hello, i just spawned in , idk where i am
+ALT: Oh you are just like me, i spawned in a couple of days ago, like my house ?
+Ginger: The TV on the fireplace seems dangerous
+ALT: Yeah i know, i didnt build the house so idk
+Ginger: well i can help you remove the tv?
+ALT: Well that will be great
+Ginger: Lets get to it
+ALT: Wait!!, but does HE allow it?
+Ginger: well... idk
+- i dont think so he minds
+	HE: i dont know how you would cuz your too short, lol
+- i dont really care 
+	HE: i dont really care about life, might as well sleep
+- Goodbye  => END
+
+
+
+=> END

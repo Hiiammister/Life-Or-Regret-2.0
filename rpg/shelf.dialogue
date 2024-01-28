@@ -1,0 +1,23 @@
+~ main
+
+ALT: Hmm This Shelf looks interesting, oh wait whats this ?
+ALT: Looks like a dusty old black book...
+ALT: (Wipes the dust away) DEATH NOTE, whats this...
+ALT: Might as well keep it back, dont want to touch anything black
+- Might as well leave it
+- Continue
+	HE: But do you want to see the book?
+	ALT: i CAN
+	HE: Idk
+	ALT: Reads the book...
+	ALT: Do we really exist for achieving something or are we just the mosquitoes of the world, well some people will have a different saying about this
+	ALT: Wow this is getting dark...
+	- Continue Reading ?
+	ALT: Why are we doing, what we are ?, why are we maintaining relations even if all it has done is ridiculed us...why
+	EMERALDO: OI, WHAT ARE YOU DOING HER, COME HERE OR GET OUT
+	- I'll leave it
+	
+	
+
+
+=> END

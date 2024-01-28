@@ -1,0 +1,46 @@
+[gd_scene load_steps=8 format=3 uid="uid://bpg148dp4v7le"]
+
+[ext_resource type="Texture2D" uid="uid://cvnivs5squ8ut" path="res://addons/dialogue_manager/example_balloon/1.png" id="1_xvd0c"]
+[ext_resource type="Script" path="res://Button.gd" id="3_5j0ja"]
+[ext_resource type="Script" path="res://read.gd" id="4_ixs4e"]
+
+[sub_resource type="Theme" id="Theme_kud3y"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yailx"]
+bg_color = Color(0.0235294, 0.0156863, 0.0156863, 1)
+
+[sub_resource type="Theme" id="Theme_i0g6d"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4yj5b"]
+bg_color = Color(0.0235294, 0.0156863, 0.0156863, 1)
+
+[node name="Node" type="Node"]
+
+[node name="1" type="Sprite2D" parent="."]
+position = Vector2(579, 326)
+texture = ExtResource("1_xvd0c")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 174.0
+offset_top = 519.0
+offset_right = 460.0
+offset_bottom = 613.0
+theme = SubResource("Theme_kud3y")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_yailx")
+text = "LEAVE THE BOOK"
+script = ExtResource("3_5j0ja")
+
+[node name="Button2" type="Button" parent="."]
+offset_left = 795.0
+offset_top = 523.0
+offset_right = 1081.0
+offset_bottom = 617.0
+theme = SubResource("Theme_i0g6d")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_4yj5b")
+text = "Read the Book"
+script = ExtResource("4_ixs4e")
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
+[connection signal="pressed" from="Button2" to="Button2" method="_on_pressed"]
